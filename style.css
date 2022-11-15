@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    /* background-image: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%); */
+    background-color: aquamarine;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.heading_style {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3em;
+}
+
+.btn {
+    font-size: 23px;
+    padding: 10px;
+    color: #000;
+    background-color: yellow;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btn:hover{
+    background-color: rgb(153, 214, 104);
+}
+
+input{
+    padding: 10px;
+}
